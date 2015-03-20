@@ -1,38 +1,81 @@
-    
-.container
-    @include outer-container
+section
 
-    #card-1
-        @include span-columns(5)
-        background:
-            image: url('/assets/img/spike-square.png') /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 32em
     
-    #card-2
-        @include span-columns(6)
-        background:
-            image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 17em
+    @include size(auto)
+    display: flex
+    flex-wrap: wrap
+    align-content: center
+
+    .contain-1
+        @include size($large-card+$card-margin)
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        justify-content: space-around
+        margin-left: $card-margin
+        
+        #card-1
+            background:
+                image: url('/assets/img/spike-square.png') /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            @include size(100%)
+
+
+    .container
+        @include size($large-card+$card-margin)
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        justify-content: space-around
+        margin-left: $card-margin
+        
+        div
+            
+        
+
 
         
-    #card-3
-        margin-top: 0.93em
-        @include span-columns(3)
-        background:
-            image: url('/assets/img/guitar-man.png') /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 14em
+        #card-2
+            background:
+                image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            @include size(100% 50%)
 
-    #card-4
-        margin-top: 0.93em
-        @include span-columns(3)
-        background:
-            image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 14em
+            
+        .contain-2
+
+            #card-3
+                background:
+                    image: url('/assets/img/guitar-man.jpg') /* eventually, make this the post feature image */
+                    size: cover
+                    position: center
+                @include size(48%)
+                margin-top: $card-margin
+                margin-right: $card-margin/2
+                display: inline-block
+
+                
+            #card-4
+                background:
+                    image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
+                    size: cover
+                    position: center
+                @include size(48%)
+                margin-top: $card-margin
+                margin-left: $card-margin/2
+                display: inline-block
+
+
+
+
+
+
+
+
+
+
+
+
+
