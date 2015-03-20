@@ -1,0 +1,38 @@
+    
+.container
+    @include outer-container
+
+    #card-1
+        @include span-columns(5)
+        background:
+            image: url('/assets/img/spike-square.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 32em
+    
+    #card-2
+        @include span-columns(6)
+        background:
+            image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 17em
+
+        
+    #card-3
+        margin-top: 0.93em
+        @include span-columns(3)
+        background:
+            image: url('/assets/img/guitar-man.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 14em
+
+    #card-4
+        margin-top: 0.93em
+        @include span-columns(3)
+        background:
+            image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 14em

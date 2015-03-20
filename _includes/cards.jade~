@@ -1,0 +1,11 @@
+section
+    #card-1
+        // add category main-card 
+    #card-2
+        // add category event
+    #card-3
+        // add category action step
+    #card-4
+        //add category blog post
+    .action-step
+        {% include action-step.html %}

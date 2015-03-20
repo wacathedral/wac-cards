@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title
+    body
+        //include header
+        section
+            //include cards
+                #card-1
+                #card-2
+                #card-3
+                #card-4
+                .action-step
+        //include footer
+                
+
