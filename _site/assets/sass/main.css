@@ -61,3 +61,25 @@ section {
       width: 48%;
       margin-top: 0.93em;
       margin-left: 0.465em; }
+
+@media (max-width: 480px) {
+  section {
+    display: block; }
+    section .contain-1 {
+      height: 18em;
+      width: 18em; }
+    section .container {
+      margin-top: 0.93em;
+      width: 18em; }
+      section .container #card-1 {
+        height: 100%;
+        width: 100%; }
+      section .container #card-2 {
+        height: 18em;
+        width: 18em; }
+      section .container #card-3 {
+        height: 18em;
+        width: 18em; }
+      section .container #card-4 {
+        height: 18em;
+        width: 18em; } }

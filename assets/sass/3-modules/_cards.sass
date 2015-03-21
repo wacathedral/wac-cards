@@ -1,5 +1,5 @@
 section
-
+    @media (max-width: 1000px)
     
     @include size(auto)
     display: flex
@@ -30,12 +30,8 @@ section
         justify-content: space-around
         margin-left: $card-margin
         
-        div
+
             
-        
-
-
-        
         #card-2
             background:
                 image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
@@ -63,6 +59,35 @@ section
             margin-top: $card-margin
             margin-left: $card-margin/2
 
+
+
+
+
+@media (max-width: 480px)
+    section
+        display: block
+    
+        .contain-1
+            @include size($large-card/2)
+
+        .container
+            margin-top: $card-margin
+            width: $large-card/2
+            
+            #card-1
+
+                @include size(100%)
+                    
+            #card-2
+
+                @include size($large-card/2)
+
+            #card-3
+                @include size($large-card/2)
+
+            #card-4
+                @include size($large-card/2)
+                
 
 
 

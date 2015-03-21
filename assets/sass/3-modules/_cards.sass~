@@ -1,5 +1,5 @@
 section
-
+    @media (max-width: 1000px)
     
     @include size(auto)
     display: flex
@@ -30,12 +30,8 @@ section
         justify-content: space-around
         margin-left: $card-margin
         
-        div
+
             
-        
-
-
-        
         #card-2
             background:
                 image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
@@ -44,28 +40,55 @@ section
             @include size(100% 50%)
 
             
-        .contain-2
+        #card-3
+            background:
+                image: url('/assets/img/guitar-man.jpg') /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            @include size(48%)
+            margin-top: $card-margin
+            margin-right: $card-margin/2
+
+            
+        #card-4
+            background:
+                image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            @include size(48%)
+            margin-top: $card-margin
+            margin-left: $card-margin/2
+
+
+
+
+
+@media (max-width: 480px)
+    section
+        display: block
+    
+        .contain-1
+            @include size($large-card/2)
+
+        .container
+            margin-top: $card-margin
+            width: $large-card/2
+            
+            #card-1
+
+                @include size(100%)
+                    
+            #card-2
+
+                @include size($large-card/2)
 
             #card-3
-                background:
-                    image: url('/assets/img/guitar-man.jpg') /* eventually, make this the post feature image */
-                    size: cover
-                    position: center
-                @include size(48%)
-                margin-top: $card-margin
-                margin-right: $card-margin/2
-                display: inline-block
+                @include size($large-card/2)
 
-                
             #card-4
-                background:
-                    image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
-                    size: cover
-                    position: center
-                @include size(48%)
-                margin-top: $card-margin
-                margin-left: $card-margin/2
-                display: inline-block
+                @include size($large-card/2)
+                
+
 
 
 
