@@ -1,1 +1,9 @@
-$break-small: new-breakpoint(max-width: 480px 3)
+$card-margin: 0.93em
+
+
+
+//Media Queries
+
+$small-break: 30em
+
+

@@ -1,101 +1,80 @@
-section
-    @media (max-width: 1000px)
     
-    @include size(auto)
-    display: flex
-    flex-wrap: wrap
-    align-content: center
+.container
+    @include outer-container
+    @media (min-width: $large)
+    
+    
+    
+    @media (max-width: $large)
+    //at large add padding-left: 4em
 
-    .contain-1
-        @include size($large-card+$card-margin)
-        display: flex
-        flex-wrap: wrap
-        align-content: center
-        justify-content: space-around
-        margin-left: $card-margin
+    #card-1
+        @include span-columns(5)
+        background:
+            image: url('/assets/img/spike-square.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 32em
+    
+    #card-2
+        @include span-columns(6)
+        background:
+            image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 17em
+
         
-        #card-1
-            background:
-                image: url('/assets/img/spike-square.png') /* eventually, make this the post feature image */
-                size: cover
-                position: center
-            @include size(100%)
+    #card-3
+        margin-top: 0.93em
+        @include span-columns(3)
+        background:
+            image: url('/assets/img/guitar-man.jpg') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 14em
+
+    #card-4
+        margin-top: 0.93em
+        @include span-columns(3)
+        background:
+            image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
+            size: cover
+            position: center
+        height: 14em
 
 
+@media (max-width: $medium)
+        
+        
+@media (max-width: $small)
     .container
-        @include size($large-card+$card-margin)
         display: flex
-        flex-wrap: wrap
-        align-content: center
-        justify-content: space-around
-        margin-left: $card-margin
+        flex-direction: column
         
-
-            
+        //figure out how to clean this up with selectors or placeholders.
+        #card-1
+            @include span-columns(12)
+            height: 17em
+            margin: 0.93em 0
+  
         #card-2
-            background:
-                image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
-                size: cover
-                position: center
-            @include size(100% 50%)
-
+            @include span-columns(12)
+            height: 17em
+            margin: 0.93em/2 0
             
         #card-3
-            background:
-                image: url('/assets/img/guitar-man.jpg') /* eventually, make this the post feature image */
-                size: cover
-                position: center
-            @include size(48%)
-            margin-top: $card-margin
-            margin-right: $card-margin/2
-
+            @include span-columns(12)
+            height: 17em
+            margin: 0.93em/2 0
             
         #card-4
-            background:
-                image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
-                size: cover
-                position: center
-            @include size(48%)
-            margin-top: $card-margin
-            margin-left: $card-margin/2
-
-
-
-
-
-@media (max-width: 480px)
-    section
-        display: block
-    
-        .contain-1
-            @include size($large-card/2)
-
-        .container
-            margin-top: $card-margin
-            width: $large-card/2
-            
-            #card-1
-
-                @include size(100%)
-                    
-            #card-2
-
-                @include size($large-card/2)
-
-            #card-3
-                @include size($large-card/2)
-
-            #card-4
-                @include size($large-card/2)
-                
-
-
-
-
-
-
-
-
+            @include span-columns(12)
+            height: 17em
+            margin: 0.93em/2 0
+        
+        div
+            width: 100%
 
 
 

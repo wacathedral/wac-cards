@@ -1,24 +1,24 @@
 
 <section>
-
+    <div class="container">
       <div id="card-1">
-        <!-- add category main-card -->
+            <div id="img-div-1"></div>
       </div>
-
-
+      
       <div id="card-2">
-        <!-- add category event-->
+            <div id="img-div-2"></div>
       </div>
-
+      
       <div id="card-3">
-        <!-- add category action step-->
+            <div id="img-div-3"></div>
       </div>
       
       <div id="card-4">
-        <!--add category blog post-->
+            <div id="img-div-4"></div>
       </div>
-
-      </div>
+      
+       </div>
+  </div>
   <div class="action-step">
     <!--maybe make this into an include file that that I can add to other pages, then style with wrappers. -->
   </div>
