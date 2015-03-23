@@ -2,6 +2,9 @@
 .container
     @include outer-container
     @media (min-width: $large)
+    
+    
+    
     @media (max-width: $large)
     //at large add padding-left: 4em
 
@@ -46,7 +49,8 @@
         
 @media (max-width: $small)
     .container
-        display: flex
+        %display-flex-supported
+        -webkit-flex-direction: column
         flex-direction: column
         
         //figure out how to clean this up with selectors or placeholders.

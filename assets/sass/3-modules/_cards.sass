@@ -49,7 +49,8 @@
         
 @media (max-width: $small)
     .container
-        display: flex
+        %display-flex-supported
+        -webkit-flex-direction: column
         flex-direction: column
         
         //figure out how to clean this up with selectors or placeholders.
