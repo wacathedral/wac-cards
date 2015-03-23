@@ -1,4 +1,5 @@
-    
+---
+---
 .container
     @include outer-container
     @media (min-width: $large)
@@ -19,7 +20,7 @@
     #card-2
         @include span-columns(6)
         background:
-            image: url('{{ site.baseurl }}/img/samurai-square.png') /* eventually, make this the post feature image */
+            image: url('/img/samurai-square.png') /* eventually, make this the post feature image */
             size: cover
             position: center
         height: 17em
@@ -29,7 +30,7 @@
         margin-top: 0.93em
         @include span-columns(3)
         background:
-            image: url('/img/guitar-man.jpg') /* eventually, make this the post feature image */
+            image: url('{{site.baseurl}}/img/guitar-man.jpg') 
             size: cover
             position: center
         height: 14em
