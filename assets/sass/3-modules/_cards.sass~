@@ -11,7 +11,7 @@
     #card-1
         @include span-columns(5)
         background:
-            image: url('/assets/img/spike-square.png') /* eventually, make this the post feature image */
+            image: url('/img/spike-square.png') /* eventually, make this the post feature image */
             size: cover
             position: center
         height: 32em
@@ -19,7 +19,7 @@
     #card-2
         @include span-columns(6)
         background:
-            image: url('/assets/img/samurai-square.png') /* eventually, make this the post feature image */
+            image: url('{{ site.url }}/img/samurai-square.png') /* eventually, make this the post feature image */
             size: cover
             position: center
         height: 17em
@@ -29,7 +29,7 @@
         margin-top: 0.93em
         @include span-columns(3)
         background:
-            image: url('/assets/img/guitar-man.jpg') /* eventually, make this the post feature image */
+            image: url('/img/guitar-man.jpg') /* eventually, make this the post feature image */
             size: cover
             position: center
         height: 14em
@@ -38,7 +38,7 @@
         margin-top: 0.93em
         @include span-columns(3)
         background:
-            image: url('/assets/img/lion-square.png') /* eventually, make this the post feature image */
+            image: url('/img/lion-square.png') /* eventually, make this the post feature image */
             size: cover
             position: center
         height: 14em
