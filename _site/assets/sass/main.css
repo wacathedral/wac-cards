@@ -24,7 +24,7 @@ p {
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%;
-    background-image: url("{{ site.url }}/img/spike-square.png");
+    background-image: url("/img/spike-square.png");
     background-size: cover;
     background-position: center;
     height: 32em; }
@@ -35,7 +35,7 @@ p {
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
-    background-image: url("{{ site.url }}/img/samurai-square.png");
+    background-image: url("{{ site.baseurl }}/img/samurai-square.png");
     background-size: cover;
     background-position: center;
     height: 17em; }
@@ -47,7 +47,7 @@ p {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    background-image: url("{{ site.url }}/img/guitar-man.jpg");
+    background-image: url("/img/guitar-man.jpg");
     background-size: cover;
     background-position: center;
     height: 14em; }
@@ -59,7 +59,7 @@ p {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    background-image: url("{{ site.url }}/img/lion-square.png");
+    background-image: url("/img/lion-square.png");
     background-size: cover;
     background-position: center;
     height: 14em; }
