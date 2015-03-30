@@ -1,84 +1,11 @@
-
-.container
-    @include outer-container
-    @media (min-width: $large)
+@media screen and (min-width: $large)
+    @import '_partials/xl-card'
     
-    
-    
-    @media (max-width: $large)
-    //at large add padding-left: 4em
-
-    #card-1
-        @include span-columns(5)
-        background:
-            image: url('/img/spike-square.png') /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 32em
-    
-    #card-2
-        @include span-columns(6)
-        background:
-            image: url({{ site.baseur l}}/img/samurai-square.png) /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 17em
-
+@media screen and (min-width: $large)
+    @import '_partials/large-card'
+   
+@media screen and (min-width: $medium)
+    @import '_partials/medium-card'
         
-    #card-3
-        margin-top: 0.93em
-        @include span-columns(3)
-        background:
-            image: url("/img/guitar-man.jpg") 
-            size: cover
-            position: center
-        height: 14em
-
-    #card-4
-        margin-top: 0.93em
-        @include span-columns(3)
-        background:
-            image: url('/img/lion-square.png') /* eventually, make this the post feature image */
-            size: cover
-            position: center
-        height: 14em
-
-
-@media (max-width: $medium)
-        
-        
-@media (max-width: $small)
-    .container
-        %display-flex-supported
-        -webkit-flex-direction: column
-        flex-direction: column
-        
-        //figure out how to clean this up with selectors or placeholders.
-        #card-1
-            @include span-columns(12)
-            height: 17em
-            margin: 0.93em 0
-  
-        #card-2
-            @include span-columns(12)
-            height: 17em
-            margin: 0.93em/2 0
-            
-        #card-3
-            @include span-columns(12)
-            height: 17em
-            margin: 0.93em/2 0
-            
-        #card-4
-            @include span-columns(12)
-            height: 17em
-            margin: 0.93em/2 0
-        
-        div
-            width: 100%
-
-
-
-
-
-
+@media screen and (min-width: $small)
+    @import '_partials/small-card'

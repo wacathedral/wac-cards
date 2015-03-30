@@ -1,2 +1,5 @@
+section
+    @include outer-container
+
 p
-    font-family: $Helvetica
+    font-family: $helvetica

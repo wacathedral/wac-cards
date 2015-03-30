@@ -2,8 +2,9 @@ $card-margin: 0.93em
 
 
 
-//Media Queries
-
-$small-break: 30em
-
+//Media Queries: @media (max-width: $small)
+$small: 30em
+$medium: 35em
+$large: 68em
+//for xlarge: @media (min-width: $large)
 

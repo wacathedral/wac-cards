@@ -1,0 +1,72 @@
+%md-card-sizing
+    height: $card-height
+    margin: $card-margin
+                
+section
+
+    .container
+        +flex-display
+        +flex-direction(column)
+    
+        #card-1
+            box-shadow: 5px 5px 10px #aaa
+            +flex-display
+            +flex($card-height)
+            background:
+                image: url('/img/spike-square.png') /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            height: $card-height+$card-margin*2.2
+            margin: $card-margin
+        
+        #card-2
+            +flex-display
+            +flex($card-height)
+            box-shadow: 5px 5px 10px #aaa
+            background:
+                image: url(/img/redsun-square.png) 
+                size: cover
+                position: center
+            @extend %md-card-sizing
+
+        .wrap
+            +flex-display     
+            +flex(1)
+            +flex-direction(column)
+            
+            .wrapper
+                +flex-display
+                +flex(1px)
+                +flex-direction(column)
+
+                #card-3
+                    box-shadow: 5px 5px 10px #aaa
+                    margin-top: 0.93em
+                    +flex($card-height)
+                    background:
+                        image: url("/img/guitar-man.jpg") 
+                        size: cover
+                        position: center
+                    @extend %md-card-sizing
+
+                #card-4
+                    box-shadow: 5px 5px 10px #aaa
+                    +flex-display
+                    +flex(1px)
+                    background:
+                        image: url('/img/lion-square.png') 
+                        size: cover
+                        position: center
+                    @extend %md-card-sizing
+        
+    .action-step
+        +flex-display
+        +justify-content(space-around)
+        +flex-wrap(wrap)
+        +align-items(center)
+        
+        .wrap
+            @include span-columns(8)
+        
+        button
+            height: 40px
