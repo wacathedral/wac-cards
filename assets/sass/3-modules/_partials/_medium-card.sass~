@@ -52,7 +52,7 @@ section
                 #card-4
                     box-shadow: 5px 5px 10px #aaa
                     +flex-display
-                    +flex(1px)
+                    +flex($card-height)
                     background:
                         image: url('/img/lion-square.png') 
                         size: cover

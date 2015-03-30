@@ -317,10 +317,10 @@ a {
         display: -moz-box;
         display: ms-flexbox;
         display: flex;
-        -webkit-box-flex: 1px;
-        -webkit-flex: 1px;
-        -ms-flex: 1px;
-        flex: 1px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -375,6 +375,10 @@ a {
     section .action-step button {
       height: 40px; } }
 @media screen and (max-width: 30em) {
+  section .container #card-1, section .container #card-2, section .container .wrap .wrapper #card-3, section .container .wrap .wrapper #card-4 {
+    height: 15em;
+    margin: 0.75em; }
+
   section .container {
     display: -webkit-box;
     display: -moz-box;
@@ -408,10 +412,10 @@ a {
       display: -moz-box;
       display: ms-flexbox;
       display: flex;
-      -webkit-box-flex: 15em;
-      -webkit-flex: 15em;
-      -ms-flex: 15em;
-      flex: 15em;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
@@ -422,10 +426,10 @@ a {
         display: -moz-box;
         display: ms-flexbox;
         display: flex;
-        -webkit-box-flex: 15em;
-        -webkit-flex: 15em;
-        -ms-flex: 15em;
-        flex: 15em;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
