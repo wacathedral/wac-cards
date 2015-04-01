@@ -21,7 +21,6 @@ section
 
         .wrap     
             +flex-display
-            +flex(1)
             +flex-direction(column)
             
             #card-2
@@ -36,7 +35,6 @@ section
             
             .wrapper
                 +flex-display
-                +flex(1)
                 +flex-direction(column)
 
                 #card-3

@@ -407,7 +407,11 @@ a {
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-box-pack: space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between; }
     section .container #card-1 {
       box-shadow: 5px 5px 10px #aaa;
       -webkit-box-flex: 18em;
