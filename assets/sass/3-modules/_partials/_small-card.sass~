@@ -19,7 +19,6 @@ section
             @extend %sm-card-sizing
 
 
-
         .wrap     
             +flex-display
             +flex(1)

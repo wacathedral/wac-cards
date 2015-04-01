@@ -37,28 +37,26 @@ header
            
             
     @media screen and (max-width: $small)
-        header
-            +justify-content(space-between)
-            .container
-                nav
-                    display: none
+        .container
+            nav
+                display: none
 
-                    
-                #logo
-                    margin-left: 6%
-                    svg
-                        height: 40px
-                        path
-                        
-
-            #menu-icon
-                +flex-display
-                +flex(1)
-                +align-items(center)
                 
-                
+            #logo
+                margin-left: 6%
                 svg
-                    +size(40px)
+                    height: 40px
+                    path
+                    
+
+        #menu-icon
+            +flex-display
+            +flex(1)
+            +align-items(center)
+            
+            
+            svg
+                +size(40px)
                 
 
 

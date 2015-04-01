@@ -423,10 +423,6 @@ a {
       display: -moz-box;
       display: ms-flexbox;
       display: flex;
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
@@ -447,10 +443,6 @@ a {
         display: -moz-box;
         display: ms-flexbox;
         display: flex;
-        -webkit-box-flex: 1;
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -533,7 +525,8 @@ header {
     flex-grow: 1;
     -ms-flex-positive: 1; }
     header .container #logo {
-      order: 1; }
+      order: 1;
+      -webkit-order: 1; }
       header .container #logo svg {
         height: 60px; }
     header .container nav {
@@ -546,7 +539,8 @@ header {
       -webkit-justify-content: flex-end;
       -ms-flex-pack: flex-end;
       justify-content: flex-end;
-      order: 2; }
+      order: 2;
+      -webkit-order: 2; }
       header .container nav a {
         margin: 0 0.9em;
         font-weight: 700;
@@ -554,7 +548,8 @@ header {
         color: black; }
   header #menu-icon {
     display: none;
-    order: 3; }
+    order: 3;
+    -webkit-order: 3; }
   @media screen and (max-width: 30em) {
     header .container nav {
       display: none; }
