@@ -1,4 +1,4 @@
-$card-height: 30em
+$card-height: 70vh
 $card-margin: $card-height*0.025
 
 //Media Queries: @media (max-width: $small)
@@ -16,5 +16,5 @@ $primary-font-color: black
 
 
 //LOGO COLORS
-$logo-primary: 
+$logo-primary: #8b8b8b
 $logo-secondary: #d1d1d1
