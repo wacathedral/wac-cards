@@ -42,7 +42,7 @@ header
             +justify-content(flex-end)
             padding: 10px 30px
             height: 50px
-
+            position: absolute
             right: 0
                 
         #logo

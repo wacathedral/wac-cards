@@ -479,13 +479,20 @@ a {
     section .action-step button {
       height: 40px; } }
 header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-between;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: space-between;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center; }
-  header .logo {
+  header #logo svg {
     height: 60px; }
-    header .logo svg {
-      fill: #444; }
   header nav {
     display: flex;
     justify-content: flex-end; }
@@ -494,3 +501,29 @@ header {
       font-weight: 700;
       text-transform: uppercase;
       color: black; }
+  header #menu-icon {
+    display: none;
+    padding: 10px 30px;
+    height: 50px;
+    position: absolute;
+    right: 0; }
+  @media screen and (max-width: 30em) {
+    header nav {
+      display: none; }
+    header #menu-icon {
+      display: -webkit-box;
+      display: -moz-box;
+      display: ms-flexbox;
+      display: flex;
+      -webkit-box-pack: flex-end;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: flex-end;
+      justify-content: flex-end;
+      padding: 10px 30px;
+      height: 50px;
+      right: 0; }
+    header #logo svg {
+      height: 40px; } }
+
+/*
+ */

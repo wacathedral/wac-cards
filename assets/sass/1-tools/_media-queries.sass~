@@ -1,9 +1,0 @@
-$small-break: 480px
-$medium-break: 620px
-$large-break: 800px
-
-// Neat Breakpoints
-
-$small: new-breakpoint(max-width 460px)
-$medium: new-breakpoint(max-width $medium-break)
-$large: new-breakpoint(max-width $large-break)

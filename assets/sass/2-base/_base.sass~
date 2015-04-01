@@ -1,5 +1,0 @@
-section
-    @include outer-container
-
-p
-    font-family: $helvetica
