@@ -3,54 +3,67 @@ header
     +flex-display
     +justify-content(space-between)
     +align-items(center)
-    padding: 0 5%
-
-
-
     
-    #logo
-        svg
-            height: 60px
-            path
+    .container
+        +flex-display
+        +justify-content(space-between)
+        +align-items(center)
+        +flex-grow(1)
+    
+        #logo
+            order: 1
+            
+            svg
+                height: 60px
+                path
 
-                
-    nav
-        display: flex
-        justify-content: flex-end
-        a
-            margin: 0 $card-margin
+                    
+        nav
+            +flex-display
+            +justify-content(flex-end)
+            order: 2
+            a
+                margin: 0 $card-margin
 
-            font:
-                weight: 700
-            text-transform: uppercase
-            color: $primary-font-color
+                font:
+                    weight: 700
+                text-transform: uppercase
+                color: $primary-font-color
         
     #menu-icon
         display: none
-        padding: 10px 30px
-        height: 50px
-        position: absolute
-        right: 0
+        order: 3
 
            
             
     @media screen and (max-width: $small)
-        nav
-            display: none
-            
-        #menu-icon
-            dipsplay: none
-            padding: 10px 30px
-            height: 50px
+        .container
+            nav
+                display: none
 
-            right: 0
                 
-        #logo
+            #logo
+                margin-left: 6%
+                svg
+                    height: 40px
+                    path
+                    
+
+        #menu-icon
+            +flex-display
+            +flex(1)
+            +align-items(center)
+            
+            
             svg
-                height: 40px
-                path
+                +size(40px)
                 
-                
+
+
+
+        @media screen and (min-width: $large)
+            header
+                margin: 0 9%
 
 /*
 

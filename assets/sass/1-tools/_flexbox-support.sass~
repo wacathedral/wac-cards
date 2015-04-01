@@ -1,5 +1,6 @@
 =flex-display
     display: -webkit-box
+    display: -webkit-flex
     display: -moz-box
     display: ms-flexbox
     display: flex
@@ -29,10 +30,6 @@
     -webkit-flex-wrap: $v
     -ms-flex-wrap: $v
     flex-wrap: $v
-
-
-//wrap, nowrap
-
 
 =flex($v)
     -webkit-box-flex: $v

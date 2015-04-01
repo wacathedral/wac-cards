@@ -1,0 +1,10 @@
+#Nav Items go below. They are put here so that we don't have to reset server to make them work.
+items:
+- {nav: Start }
+- {nav: Gatherings }
+- {nav: Community }
+- {nav: Service }
+
+
+action-step:
+-{header: 'Plaction Step' }

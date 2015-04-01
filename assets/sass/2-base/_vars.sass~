@@ -1,4 +1,4 @@
-$card-height: 70vh
+$card-height: 40em
 $card-margin: $card-height*0.025
 
 //Media Queries: @media (max-width: $small)

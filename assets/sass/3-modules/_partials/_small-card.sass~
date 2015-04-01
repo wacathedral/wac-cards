@@ -11,28 +11,29 @@ section
     
         #card-1
             box-shadow: 5px 5px 10px #aaa
-            +flex(1)
+            +flex($card-height/2)
             background:
                 image: url('/img/spike-square.png') /* eventually, make this the post feature image */
                 size: cover
                 position: center
             @extend %sm-card-sizing
 
-        
-        #card-2
-            +flex($card-height/2)
-            box-shadow: 5px 5px 10px #aaa
-            background:
-                image: url(/img/redsun-square.png) 
-                size: cover
-                position: center
-            @extend %sm-card-sizing
 
 
         .wrap     
             +flex-display
             +flex(1)
             +flex-direction(column)
+            
+            #card-2
+                +flex($card-height/2)
+                box-shadow: 5px 5px 10px #aaa
+                background:
+                    image: url(/img/redsun-square.png) 
+                    size: cover
+                    position: center
+                @extend %sm-card-sizing
+                
             
             .wrapper
                 +flex-display

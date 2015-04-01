@@ -12,7 +12,9 @@
     </div>
     <div class="action-step">
         <div class="wrap">
-        <h2>Action Step</h2>
+            {% for items in site.data.nav.action-step %}
+            <h2>{{ action-step.header }}</h2>
+            {% endfor %}
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sollicitudin lacus. 
         Aliquam fringilla, justo sed auctor posuere, felis eros eleifend sem, blandit finibus odio nisl
          ut odio. Donec a urna a purus porta semper. Pellentesque sed lacus lorem. Curabitur at 
