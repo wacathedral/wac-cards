@@ -38,11 +38,10 @@ header
             display: none
             
         #menu-icon
-            +flex-display
-            +justify-content(flex-end)
+dipsplay: none
             padding: 10px 30px
             height: 50px
-            position: absolute
+
             right: 0
                 
         #logo
