@@ -3,18 +3,18 @@
 
     <div class="container positioner">
     {% for post in site.categories.sermon limit:1 %}
-        <a href="{{ post.url | prepend: site.baseurl }}" id="card-1" style="background-image: url('/img/{{ post.image }}') "></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" id="card-1" style="background-image: url('{{site.baseurl}}/img/{{ post.image }}') "></a>
     {% endfor %}
         <div class="wrap">
             {% for post in site.categories.announcement limit:1%}
-            <a href="{{ post.url | prepend: site.baseurl }}" id="card-2" style="background-image: url('/img/{{ post.image }}') "></a>
+            <a href="{{ post.url | prepend: site.baseurl }}" id="card-2" style="background-image: url('{{site.baseurl}}/img/{{ post.image }}') "></a>
             {% endfor %}
             <div class="wrapper">
                 {% for post in site.categories.event limit:1%}
-                <a href="{{ post.url | prepend: site.baseurl }}" id="card-3" style="background-image: url('/img/{{ post.image }}') "></a>
+                <a href="{{ post.url | prepend: site.baseurl }}" id="card-3" style="background-image: url('{{site.baseurl}}/img/{{ post.image }}') "></a>
                 {% endfor %}
                 {% for post in site.categories.action limit:1 3%}
-                <a href="{{ post.url | prepend: site.baseurl }}" id="card-4" style="background-image: url('/img/{{ post.image }}') "></a>
+                <a href="{{ post.url | prepend: site.baseurl }}" id="card-4" style="background-image: url('{{site.baseurl}}/img/{{ post.image }}') "></a>
                 {% endfor %}
             </div>
         </div>
