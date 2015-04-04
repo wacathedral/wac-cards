@@ -1,7 +1,7 @@
 
 <header class="positioner">
   <a href="{{site.url}}" id="menu-icon"> {% include icons/menu.svg %}</a>
-  <a href="{{site.url}}"><div id="logo"><!--<img src="/img/wac-logo.png"/>-->  {% include icons/wac-logo.svg %}</div></a>
+  <a href="{{site.url}}" id="logo"><!--<img src="/img/wac-logo.png"/>-->  {% include icons/wac-logo.svg %}</a>
   <nav>
     <a href="#">Start</a>
     <a href="#">Gatherings</a>
