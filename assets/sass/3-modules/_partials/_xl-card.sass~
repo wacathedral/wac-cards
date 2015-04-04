@@ -10,19 +10,17 @@ section
 
         #card-1
             box-shadow: 5px 5px 10px #aaa
-            +flex($card-height)
+            +flex(1)
             background:
-                image: url('/img/spike-square.png') /* eventually, make this the post feature image */
                 size: cover
                 position: center
             height: $card-height+$card-margin*2.2
             margin: $card-margin
         
         #card-2
-            +flex($card-height)
+            +flex(1)
             box-shadow: 5px 5px 10px #aaa
             background:
-                image: url(/img/redsun-square.png) 
                 size: cover
                 position: center
             height: ($card-height/2)-$card-margin
@@ -43,9 +41,9 @@ section
                     box-shadow: 5px 5px 10px #aaa
                     +flex(1)
                     background:
-                        image: url("/img/guitar-man.jpg") 
-                        size: cover
+                        size: contain
                         position: center
+                        repeat: no-repeat
                     @extend %xl-card-sizing
                     margin-top: $card-margin/2
 
@@ -53,7 +51,6 @@ section
                     box-shadow: 5px 5px 10px #aaa
                     +flex(1)
                     background:
-                        image: url('/img/lion-square.png') 
                         size: cover
                         position: center
                     @extend %xl-card-sizing

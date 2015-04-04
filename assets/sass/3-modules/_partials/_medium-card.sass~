@@ -36,7 +36,7 @@ section
             
             .wrapper
                 +flex-display
-                +flex(1px)
+                +flex(1)
                 +flex-direction(column)
 
                 #card-3

@@ -67,7 +67,6 @@ a {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      background-image: url("/img/spike-square.png");
       background-size: cover;
       background-position: center;
       height: 37.98em;
@@ -78,7 +77,6 @@ a {
       -ms-flex: 1;
       flex: 1;
       box-shadow: 5px 5px 10px #aaa;
-      background-image: url(/img/redsun-square.png);
       background-size: cover;
       background-position: center;
       height: 17.1em;
@@ -119,7 +117,6 @@ a {
           -webkit-flex: 1;
           -ms-flex: 1;
           flex: 1;
-          background-image: url("/img/guitar-man.jpg");
           background-size: cover;
           background-position: center;
           margin-top: 0.45em; }
@@ -129,7 +126,6 @@ a {
           -webkit-flex: 1;
           -ms-flex: 1;
           flex: 1;
-          background-image: url("/img/lion-square.png");
           background-size: cover;
           background-position: center;
           margin-top: 0.45em; }
@@ -181,7 +177,6 @@ a {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      background-image: url("/img/spike-square.png");
       background-size: cover;
       background-position: center;
       height: 36.9em;
@@ -192,7 +187,6 @@ a {
       -ms-flex: 1;
       flex: 1;
       box-shadow: 5px 5px 10px #aaa;
-      background-image: url(/img/redsun-square.png);
       background-size: cover;
       background-position: center; }
     section .container .wrap {
@@ -226,7 +220,6 @@ a {
           -webkit-flex: 1;
           -ms-flex: 1;
           flex: 1;
-          background-image: url("/img/guitar-man.jpg");
           background-size: cover;
           background-position: center;
           margin-top: 0.45em; }
@@ -236,7 +229,6 @@ a {
           -webkit-flex: 1;
           -ms-flex: 1;
           flex: 1;
-          background-image: url("/img/lion-square.png");
           background-size: cover;
           background-position: center;
           margin-top: 0.45em; }
@@ -293,7 +285,6 @@ a {
       -webkit-flex: 36em;
       -ms-flex: 36em;
       flex: 36em;
-      background-image: url("/img/spike-square.png");
       background-size: cover;
       background-position: center;
       height: 37.98em;
@@ -309,7 +300,6 @@ a {
       -ms-flex: 36em;
       flex: 36em;
       box-shadow: 5px 5px 10px #aaa;
-      background-image: url(/img/redsun-square.png);
       background-size: cover;
       background-position: center; }
     section .container .wrap {
@@ -349,7 +339,6 @@ a {
           -webkit-flex: 36em;
           -ms-flex: 36em;
           flex: 36em;
-          background-image: url("/img/guitar-man.jpg");
           background-size: cover;
           background-position: center; }
         section .container .wrap .wrapper #card-4 {
@@ -363,7 +352,6 @@ a {
           -webkit-flex: 36em;
           -ms-flex: 36em;
           flex: 36em;
-          background-image: url("/img/lion-square.png");
           background-size: cover;
           background-position: center; }
   section .action-step {
@@ -407,18 +395,13 @@ a {
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: space-between;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: space-between;
-    justify-content: space-between; }
+    flex-direction: column; }
     section .container #card-1 {
       box-shadow: 5px 5px 10px #aaa;
       -webkit-box-flex: 18em;
       -webkit-flex: 18em;
       -ms-flex: 18em;
       flex: 18em;
-      background-image: url("/img/spike-square.png");
       background-size: cover;
       background-position: center; }
     section .container .wrap {
@@ -438,7 +421,6 @@ a {
         -ms-flex: 18em;
         flex: 18em;
         box-shadow: 5px 5px 10px #aaa;
-        background-image: url(/img/redsun-square.png);
         background-size: cover;
         background-position: center; }
       section .container .wrap .wrapper {
@@ -458,7 +440,6 @@ a {
           -webkit-flex: 18em;
           -ms-flex: 18em;
           flex: 18em;
-          background-image: url("/img/guitar-man.jpg");
           background-size: cover;
           background-position: center; }
         section .container .wrap .wrapper #card-4 {
@@ -467,7 +448,6 @@ a {
           -webkit-flex: 18em;
           -ms-flex: 18em;
           flex: 18em;
-          background-image: url("/img/lion-square.png");
           background-size: cover;
           background-position: center; }
   section .action-step {
@@ -584,3 +564,7 @@ header {
 
 /*
  */
+.hero {
+  height: 18em;
+  background-size: cover;
+  background-position: center; }

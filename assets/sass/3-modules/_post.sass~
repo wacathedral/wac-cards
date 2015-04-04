@@ -1,0 +1,6 @@
+
+.hero
+    height: $card-height/2
+    background:
+    size: cover
+    position: center
