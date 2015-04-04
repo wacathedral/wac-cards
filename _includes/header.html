@@ -1,11 +1,11 @@
 
 <header class="positioner">
-  <a href="{{site.url}}" id="menu-icon"> {% include icons/menu.svg %}</a>
+  <a href="{{site.baseurl}}/" id="menu-icon"> {% include icons/menu.svg %}</a>
   <div class="container">
-  <a href="{{site.url}}" id="logo"><!--<img src="/img/wac-logo.png"/>-->  {% include icons/wac-logo.svg %}</a>
+  <a href="{{site.baseurl}}/" id="logo"><!--<img src="/img/wac-logo.png"/>-->  {% include icons/wac-logo.svg %}</a>
   <nav>
     {% for items in site.data.nav.items %}
-    <a href="{{site.url}}">{{ items.nav }}</a>
+    <a href="{{site.baseurl}}/">{{ items.nav }}</a>
     {% endfor %}
   </nav>
   </div>
