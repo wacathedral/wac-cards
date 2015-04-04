@@ -1,0 +1,7 @@
+{% for post in site.posts %}
+article
+    .hero(style="background-image: url('/img/{{ post.image }}') ")
+    .content
+        h2 {% if page.title %}{{ page.title }} {% endif %}{% if post.title %}{{ post.title }} {% endif %}
+        p {{ post.content }}
+{% endfor %}

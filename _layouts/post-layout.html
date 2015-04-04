@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% for post in site.posts limit:1%}
+<article class="post">
+  <div style="background-image: url('/img/{{ page.image }}') " class="hero"></div>
+  <div class="content">
+    <h2>{% if page.title %}{{ page.title }} {% endif %}</h2>
+    <p>{{ content }}</p>
+  </div>
+</article>{% endfor %}

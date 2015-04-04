@@ -1,20 +1,28 @@
 
 <section>
+
     <div class="container positioner">
-        <a href="#" id="card-1"></a>
+    {% for post in site.categories.sermon limit:1 %}
+        <a href="{{ post.url | prepend: site.baseurl }}" id="card-1" style="background-image: url('/img/{{ post.image }}') "></a>
+    {% endfor %}
         <div class="wrap">
-            <a href="#" id="card-2"></a>
+            {% for post in site.categories.announcement limit:1%}
+            <a href="{{ post.url | prepend: site.baseurl }}" id="card-2" style="background-image: url('/img/{{ post.image }}') "></a>
+            {% endfor %}
             <div class="wrapper">
-                <a href="#" id="card-3"></a>
-                <a href="#" id="card-4"></a>
+                {% for post in site.categories.event limit:1%}
+                <a href="{{ post.url | prepend: site.baseurl }}" id="card-3" style="background-image: url('/img/{{ post.image }}') "></a>
+                {% endfor %}
+                {% for post in site.categories.action limit:1 3%}
+                <a href="{{ post.url | prepend: site.baseurl }}" id="card-4" style="background-image: url('/img/{{ post.image }}') "></a>
+                {% endfor %}
             </div>
         </div>
     </div>
+
     <div class="action-step">
         <div class="wrap">
-            {% for items in site.data.nav.action-step %}
-            <h2>{{ action-step.header }}</h2>
-            {% endfor %}
+        <h2>Action Step</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sollicitudin lacus. 
         Aliquam fringilla, justo sed auctor posuere, felis eros eleifend sem, blandit finibus odio nisl
          ut odio. Donec a urna a purus porta semper. Pellentesque sed lacus lorem. Curabitur at 

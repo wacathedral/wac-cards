@@ -1,0 +1,19 @@
+
+.hero
+    height: $card-height/2
+    background:
+        size: cover
+        position: center
+    
+        
+.content
+    margin: 0 10%
+    font:
+        size: 1.4em
+    line-height: 1.8em
+    
+    
+@media screen and (max-width: $small)
+    .hero
+        height: $card-height/4
+    
