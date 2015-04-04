@@ -568,3 +568,17 @@ header {
   height: 18em;
   background-size: cover;
   background-position: center; }
+
+.content {
+  margin: 0 10%;
+  font-size: 1.4em;
+  line-height: 1.8em; }
+
+@media screen and (max-width: 30em) {
+  .hero {
+    height: 9em; }
+
+  .content {
+    margin: 0 4%;
+    font-size: 1em;
+    line-height: 1.4em; } }
