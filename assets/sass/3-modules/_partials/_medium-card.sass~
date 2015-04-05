@@ -13,7 +13,6 @@ section
             +flex-display
             +flex($card-height)
             background:
-                image: url('/img/spike-square.png') /* eventually, make this the post feature image */
                 size: cover
                 position: center
             height: $card-height+$card-margin*2.2
@@ -24,7 +23,6 @@ section
             +flex($card-height)
             box-shadow: 5px 5px 10px #aaa
             background:
-                image: url(/img/redsun-square.png) 
                 size: cover
                 position: center
             @extend %md-card-sizing
@@ -44,7 +42,6 @@ section
                     margin-top: 0.93em
                     +flex($card-height)
                     background:
-                        image: url("/img/guitar-man.jpg") 
                         size: cover
                         position: center
                     @extend %md-card-sizing
@@ -54,7 +51,6 @@ section
                     +flex-display
                     +flex($card-height)
                     background:
-                        image: url('/img/lion-square.png') 
                         size: cover
                         position: center
                     @extend %md-card-sizing

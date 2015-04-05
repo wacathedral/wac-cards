@@ -12,7 +12,6 @@ section
             box-shadow: 5px 5px 10px #aaa
             +flex(1)
             background:
-                image: url('/img/spike-square.png')
                 size: cover
                 position: center
             height: $card-height+$card-margin
@@ -22,7 +21,6 @@ section
             +flex(1)
             box-shadow: 5px 5px 10px #aaa
             background:
-                image: url(/img/redsun-square.png) 
                 size: cover
                 position: center
             @extend %lg-card-sizing
@@ -41,7 +39,6 @@ section
                     box-shadow: 5px 5px 10px #aaa
                     +flex(1)
                     background:
-                        image: url("/img/guitar-man.jpg") 
                         size: cover
                         position: center
                     @extend %lg-card-sizing
@@ -51,7 +48,6 @@ section
                     box-shadow: 5px 5px 10px #aaa
                     +flex(1)
                     background:
-                        image: url('/img/lion-square.png') 
                         size: cover
                         position: center
                     @extend %lg-card-sizing

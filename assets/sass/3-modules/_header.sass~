@@ -12,6 +12,7 @@ header
     
         #logo
             order: 1
+            -webkit-order: 1
             
             svg
                 height: 60px
@@ -22,6 +23,7 @@ header
             +flex-display
             +justify-content(flex-end)
             order: 2
+            -webkit-order: 2
             a
                 margin: 0 $card-margin
 
@@ -33,6 +35,7 @@ header
     #menu-icon
         display: none
         order: 3
+        -webkit-order: 3
 
            
             
@@ -51,7 +54,7 @@ header
 
         #menu-icon
             +flex-display
-            +flex(1)
+
             +align-items(center)
             
             

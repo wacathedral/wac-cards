@@ -1,12 +1,11 @@
-%xl-card-sizing
-    height: $card-height/2
-    margin: $card-margin
+
                 
 section
-
     .container
         +flex-display
         +flex-direction(row)
+        +flex(1)
+        height: 88vh
 
         #card-1
             box-shadow: 5px 5px 10px #aaa
@@ -14,7 +13,6 @@ section
             background:
                 size: cover
                 position: center
-            height: $card-height+$card-margin*2.2
             margin: $card-margin
         
         #card-2
@@ -23,7 +21,6 @@ section
             background:
                 size: cover
                 position: center
-            height: ($card-height/2)-$card-margin
             margin: $card-margin
             margin-bottom: $card-margin/2
 
@@ -43,7 +40,7 @@ section
                     background:
                         size: cover
                         position: center
-                    @extend %xl-card-sizing
+                    margin: $card-margin
                     margin-top: $card-margin/2
 
                 #card-4
@@ -52,17 +49,17 @@ section
                     background:
                         size: cover
                         position: center
-                    @extend %xl-card-sizing
+                    margin: $card-margin
                     margin-top: $card-margin/2
         
     .action-step
         +flex-display
         +justify-content(space-around)
-        +flex-wrap(wrap)
         +align-items(center)
         
         .wrap
-            @include span-columns(8)
+            width: 60%
+        
         
         button
             height: 40px

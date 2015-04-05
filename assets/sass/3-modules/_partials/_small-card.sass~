@@ -7,14 +7,13 @@ section
 
     .container
         +flex-display
-        +flex-direction(column)
+
 
     
         #card-1
             box-shadow: 5px 5px 10px #aaa
             +flex($card-height/2)
             background:
-                image: url('/img/spike-square.png') /* eventually, make this the post feature image */
                 size: cover
                 position: center
             @extend %sm-card-sizing
@@ -22,13 +21,12 @@ section
 
         .wrap     
             +flex-display
-            +flex-direction(column)
+
             
             #card-2
                 +flex($card-height/2)
                 box-shadow: 5px 5px 10px #aaa
                 background:
-                    image: url(/img/redsun-square.png) 
                     size: cover
                     position: center
                 @extend %sm-card-sizing
@@ -36,13 +34,12 @@ section
             
             .wrapper
                 +flex-display
-                +flex-direction(column)
+
 
                 #card-3
                     box-shadow: 5px 5px 10px #aaa
                     +flex($card-height/2)
                     background:
-                        image: url("/img/guitar-man.jpg") 
                         size: cover
                         position: center
                     @extend %sm-card-sizing
@@ -52,7 +49,6 @@ section
                     box-shadow: 5px 5px 10px #aaa
                     +flex($card-height/2)
                     background:
-                        image: url('/img/lion-square.png') 
                         size: cover
                         position: center
                     @extend %sm-card-sizing
@@ -60,12 +56,14 @@ section
         
     .action-step
         +flex-display
+        +flex-direction(column)
         +justify-content(space-around)
-        +flex-wrap(wrap)
         +align-items(center)
         
         .wrap
-            @include span-columns(8)
+            width: 90%
+        
         
         button
+            width: 80%
             height: 40px
