@@ -14,6 +14,6 @@ a
     max-width: 100em
     background-color: #fff
 
-    @media screen and (min-width: $small)
+    @media screen and (min-width: $medium)
         margin: 0 3em
 

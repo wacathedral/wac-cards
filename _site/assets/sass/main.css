@@ -29,7 +29,8 @@ html {
   font-weight: 400;
   src: local("Montserrat"), url(//fonts.googleapis.com/css?family=Montserrat); }
 body {
-  font-family: Open Sans; }
+  font-family: Open Sans;
+  margin: 0; }
 
 h1, h2, h3, h4 {
   font-family: Open Sans; }
@@ -561,7 +562,7 @@ header {
     line-height: 1.4em; } }
 .overlay {
   background: rgba(0, 0, 0, 0.93);
-  height: 100vh;
+  height: 200vh;
   width: 100%;
   position: absolute;
   z-index: 999;

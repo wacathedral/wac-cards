@@ -1,8 +1,8 @@
 ---
 layout: post-layout
 title:  Test Post
-category: 
-image: easter-promo.jpg
+category: announcement
+image: 158H.jpg
 
 ---
 This is just a test post
