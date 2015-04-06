@@ -1,0 +1,10 @@
+<div class="overlay">
+    <div class="ov-wrap">
+        <div class="ov-nav-wrap">
+            {% for items in site.data.nav.items %}
+            <a class="nav-item" href="#"><span>{{ items.nav }}</span></a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="social"></div> <!-- maybe make a social.html so that I can include it in various other places. -->
+</div>

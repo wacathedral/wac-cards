@@ -1,8 +1,15 @@
 
 <header class="positioner">
-  <a href="{{site.baseurl}}/" id="menu-icon"> {% include icons/menu.svg %}</a>
+	<div class="button">
+		<a href="#">
+			<div class="btn-close menu-icon">{% include icons/x.svg %}</div>
+			<div class="btn-open menu-icon">{% include icons/menu.svg %}</div>
+		</a>
+	</div>
+
+
   <div class="container">
-  <a href="{{site.baseurl}}/" id="logo"><!--<img src="/img/wac-logo.png"/>-->  {% include icons/wac-logo.svg %}</a>
+  <a href="{{site.baseurl}}/" id="logo">  {% include icons/wac-logo.svg %}</a>
   <nav>
     {% for items in site.data.nav.items %}
     <a href="{{site.baseurl}}/">{{ items.nav }}</a>

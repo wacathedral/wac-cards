@@ -2,7 +2,7 @@
 header
     +flex-display
     +justify-content(space-between)
-    +align-items(center)
+
     
     .container
         +flex-display
@@ -32,10 +32,11 @@ header
                 text-transform: uppercase
                 color: $primary-font-color
         
-    #menu-icon
+    .menu-icon
         display: none
         order: 3
         -webkit-order: 3
+        z-index: $z-top
 
            
             
@@ -49,18 +50,22 @@ header
                 margin-left: 6%
                 svg
                     height: 40px
-                    path
-                    
 
-        #menu-icon
-            +flex-display
-
-            +align-items(center)
             
+        .menu-icon
+            +flex-display
+            +align-items(center)
+            right: 0
+            padding-right: 6%
+            position: absolute
+               
             
             svg
                 +size(40px)
-                
+            
+        .btn-close
+            g
+                fill: #fff
 
 
 

@@ -461,11 +461,7 @@ header {
   -webkit-box-pack: space-between;
   -webkit-justify-content: space-between;
   -ms-flex-pack: space-between;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  justify-content: space-between; }
   header .container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -506,10 +502,11 @@ header {
         font-weight: 700;
         text-transform: uppercase;
         color: black; }
-  header #menu-icon {
+  header .menu-icon {
     display: none;
     order: 3;
-    -webkit-order: 3; }
+    -webkit-order: 3;
+    z-index: 999; }
   @media screen and (max-width: 30em) {
     header .container nav {
       display: none; }
@@ -517,7 +514,7 @@ header {
       margin-left: 6%; }
       header .container #logo svg {
         height: 40px; }
-    header #menu-icon {
+    header .menu-icon {
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -527,10 +524,14 @@ header {
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      margin-right: 6%; }
-      header #menu-icon svg {
+      right: 0;
+      padding-right: 6%;
+      position: absolute; }
+      header .menu-icon svg {
         height: 40px;
-        width: 40px; } }
+        width: 40px; }
+    header .btn-close g {
+      fill: #fff; } }
 @media screen and (max-width: 30em) and (min-width: 68em) {
   header header {
     margin: 0 9%; } }
@@ -558,3 +559,27 @@ header {
     margin: 0 4%;
     font-size: 1em;
     line-height: 1.4em; } }
+.overlay {
+  background: rgba(0, 0, 0, 0.93);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 999;
+  display: none; }
+  .overlay .ov-wrap {
+    padding: 2em 0px; }
+    .overlay .ov-wrap .nav-item {
+      font-size: 4em;
+      color: #fff;
+      display: block;
+      text-align: center;
+      font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-weight: 100;
+      line-height: 1.4;
+      margin: 40px; }
+      .overlay .ov-wrap .nav-item span {
+        border-top: 2px solid #fff; }
+    .overlay .ov-wrap .ov-nav-wrap {
+      padding-top: 2em; }
+  .overlay .ov-wrap .nav-item {
+    font-size: 3em; }
