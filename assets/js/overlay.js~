@@ -17,5 +17,7 @@ $('.overlay').on('click', function(){
     $('nav a, #button').fadeIn(200);
     open = false; 
 });
-
+$('.wrap').on('click', function(){
+    return false; 
+});
 })

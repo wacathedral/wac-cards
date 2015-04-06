@@ -1,5 +1,5 @@
 footer Copyright 2015 Ben McCary
 
-script(src='{{site.baseurl}}/assets/js/functions.js}')
+script(src='{{site.baseurl}}/assets/js/functions.js')
 script(src='{{site.baseurl}}/assets/js/overlay.js')
 

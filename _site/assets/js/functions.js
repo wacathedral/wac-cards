@@ -20,7 +20,4 @@ $( document ).ready(function(){
         open = false; 
     });
     
-    $('.wrap').on('click', function(){
-        return false; 
-    });
 })
