@@ -1,18 +1,21 @@
 %sm-card-sizing
-    height: $card-height/2
-    margin: $card-margin    
+    +size($card-height/2)    
 
 
 section
+    overflow-x: scroll
+    overflow-y: hidden
+    display: inline-block
+    width: auto
+    white-space: nowrap
 
     .container
-        +flex-display
-
+        display: inline-block
 
     
         #card-1
             box-shadow: 5px 5px 10px #aaa
-            +flex($card-height/2)
+            display: inline-block
             background:
                 size: cover
                 position: center
@@ -20,11 +23,10 @@ section
 
 
         .wrap     
-            +flex-display
-
+            display: inline-block
             
             #card-2
-                +flex($card-height/2)
+
                 box-shadow: 5px 5px 10px #aaa
                 background:
                     size: cover
@@ -33,21 +35,13 @@ section
                 
             
             .wrapper
-                +flex-display
+                display: inline-block
 
-
-                #card-3
-                    box-shadow: 5px 5px 10px #aaa
-                    +flex($card-height/2)
-                    background:
-                        size: cover
-                        position: center
-                    @extend %sm-card-sizing
 
 
                 #card-4
                     box-shadow: 5px 5px 10px #aaa
-                    +flex($card-height/2)
+
                     background:
                         size: cover
                         position: center
@@ -55,7 +49,8 @@ section
 
         
     .action-step
-        +flex-display
+        display: none
+//        +flex-display
         +flex-direction(column)
         +justify-content(space-around)
         +align-items(center)

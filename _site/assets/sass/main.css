@@ -360,99 +360,38 @@ a {
     section .action-step button {
       height: 40px; } }
 @media screen and (max-width: 30em) {
-  section .container #card-1, section .container .wrap #card-2, section .container .wrap .wrapper #card-3, section .container .wrap .wrapper #card-4 {
+  section .container #card-1, section .container .wrap #card-2, section .container .wrap .wrapper #card-4 {
     height: 18em;
-    margin: 0.9em; }
+    width: 18em; }
 
-  section .container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-    section .container #card-1 {
-      box-shadow: 5px 5px 10px #aaa;
-      -webkit-box-flex: 18em;
-      -webkit-flex: 18em;
-      -ms-flex: 18em;
-      flex: 18em;
-      background-size: cover;
-      background-position: center; }
-    section .container .wrap {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -moz-box;
-      display: ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      section .container .wrap #card-2 {
-        -webkit-box-flex: 18em;
-        -webkit-flex: 18em;
-        -ms-flex: 18em;
-        flex: 18em;
+  section {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: inline-block;
+    width: auto;
+    white-space: nowrap; }
+    section .container {
+      display: inline-block; }
+      section .container #card-1 {
         box-shadow: 5px 5px 10px #aaa;
+        display: inline-block;
         background-size: cover;
         background-position: center; }
-      section .container .wrap .wrapper {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-box;
-        display: ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column; }
-        section .container .wrap .wrapper #card-3 {
+      section .container .wrap {
+        display: inline-block; }
+        section .container .wrap #card-2 {
+          display: inline-block;
           box-shadow: 5px 5px 10px #aaa;
-          -webkit-box-flex: 18em;
-          -webkit-flex: 18em;
-          -ms-flex: 18em;
-          flex: 18em;
           background-size: cover;
           background-position: center; }
-        section .container .wrap .wrapper #card-4 {
-          box-shadow: 5px 5px 10px #aaa;
-          -webkit-box-flex: 18em;
-          -webkit-flex: 18em;
-          -ms-flex: 18em;
-          flex: 18em;
-          background-size: cover;
-          background-position: center; }
-  section .action-step {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: space-around;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: space-around;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    section .action-step .wrap {
-      width: 90%; }
-    section .action-step button {
-      width: 80%;
-      height: 40px; } }
+        section .container .wrap .wrapper {
+          display: inline-block; }
+          section .container .wrap .wrapper #card-4 {
+            box-shadow: 5px 5px 10px #aaa;
+            background-size: cover;
+            background-position: center; }
+    section .action-step {
+      display: none; } }
 header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -509,13 +448,16 @@ header {
     -webkit-order: 3;
     z-index: 999; }
   @media screen and (max-width: 30em) {
-    header .container nav {
-      display: none; }
-    header .container #logo {
-      margin-left: 6%; }
-      header .container #logo svg {
-        height: 40px; }
+    header .container {
+      margin-top: 2%; }
+      header .container nav {
+        display: none; }
+      header .container #logo {
+        margin-left: 6%; }
+        header .container #logo svg {
+          height: 40px; }
     header .menu-icon {
+      margin-top: 2%;
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;

@@ -42,6 +42,8 @@ header
             
     @media screen and (max-width: $small)
         .container
+            margin-top: 1%
+            
             nav
                 display: none
 
@@ -53,6 +55,7 @@ header
 
             
         .menu-icon
+            margin-top: 1%
             +flex-display
             +align-items(center)
             right: 0
@@ -65,7 +68,7 @@ header
             
         .btn-close
             g
-                fill: #fff
+                fill: $accent2
 
 
 
