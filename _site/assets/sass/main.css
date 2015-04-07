@@ -362,13 +362,14 @@ a {
 @media screen and (max-width: 30em) {
   section .container #card-1, section .container .wrap #card-2, section .container .wrap .wrapper #card-4 {
     height: 18em;
-    width: 18em; }
+    width: 89vw;
+    margin: 0.9em; }
 
   section {
     overflow-x: scroll;
     overflow-y: hidden;
     display: inline-block;
-    width: auto;
+    width: 100vw;
     white-space: nowrap; }
     section .container {
       display: inline-block; }
