@@ -370,7 +370,9 @@ a {
     overflow-y: hidden;
     display: inline-block;
     width: 100vw;
-    white-space: nowrap; }
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch; }
     section .container {
       display: inline-block; }
       section .container #card-1 {

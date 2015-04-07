@@ -1,5 +1,6 @@
 footer Copyright 2015 Ben McCary
-
+script(src='{{site.baseurl}}/assets/js/jquery-2.1.1.min.js')
 script(src='{{site.baseurl}}/assets/js/functions.js')
+script(src='{{site.baseurl}}/assets/js/scroll-size.js')
 
 

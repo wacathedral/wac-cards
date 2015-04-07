@@ -1,5 +1,5 @@
 %sm-card-sizing
-    +size(98vw $card-height/2)
+
     margin: $card-margin    
 
 
@@ -9,6 +9,8 @@ section
     display: inline-block
     width: 100vw
     white-space: nowrap
+    -webkit-overflow-scrolling: touch
+    overflow-scrolling: touch
 
     .container
         display: inline-block
