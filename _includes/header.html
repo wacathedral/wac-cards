@@ -12,7 +12,7 @@
   <a href="{{site.baseurl}}/" id="logo">  {% include icons/wac-logo.svg %}</a>
   <nav>
     {% for items in site.data.nav.items %}
-    <a href="{{site.baseurl}}/">{{ items.nav }}</a>
+    <a href="{{site.baseurl}}/{{items.url}}">{{ items.nav }}</a>
     {% endfor %}
   </nav>
   </div>

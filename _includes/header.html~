@@ -2,8 +2,8 @@
 <header class="positioner">
 	<div class="button">
 		<a href="#">
-			<div class="btn-open menu-icon">{% include icons/menu.svg %}</div>
 			<div class="btn-close menu-icon">{% include icons/x.svg %}</div>
+			<div class="btn-open menu-icon">{% include icons/menu.svg %}</div>
 		</a>
 	</div>
 

@@ -47,6 +47,9 @@ a {
     .positioner {
       padding: 0 3em; } }
 
+.form {
+  background-color: #eee; }
+
 @media screen and (min-width: 68em) {
   section .container {
     display: -webkit-box;
@@ -462,7 +465,8 @@ header {
   -webkit-box-pack: space-between;
   -webkit-justify-content: space-between;
   -ms-flex-pack: space-between;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 1em !important; }
   header .container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -584,3 +588,35 @@ header {
       padding-top: 2em; }
   .overlay .ov-wrap .nav-item {
     font-size: 3em; }
+
+.post .wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: ms-flexbox;
+  display: flex;
+  margin-top: 4%; }
+  .post .wrap .testimonial {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 18em;
+    background-size: cover;
+    background-position: center; }
+  @media screen and (max-width: 58em) {
+    .post .wrap .hide1 {
+      display: none; } }
+  @media screen and (max-width: 30em) {
+    .post .wrap div[class*="hide"] {
+      display: none; } }

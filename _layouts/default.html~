@@ -3,9 +3,15 @@
     {% include head.html %}
 
   <body>
+  <div class="positioner">
+    {% include overlay.html %}
     {% include header.html %}
+
     
-        
+
+        {% include cards.html %}
+
+    </div>
     {% include footer.html %}
   </body>
 </html>

@@ -1,8 +1,8 @@
 <div class="overlay">
     <div class="ov-wrap">
-        <na class="ov-nav-wrap">
+        <div class="ov-nav-wrap">
             {% for items in site.data.nav.items %}
-            <a class="nav-item" href="{{site.baseurl}}/{{items.url}}"><span>{{ items.nav }}</span></a>
+            <a class="nav-item" href="#"><span>{{ items.nav }}</span></a>
             {% endfor %}
         </div>
     </div>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+    {% for first in site.data.ministries.first %}
+<article class="post">
+  <div style="background-image: url('{{site.baseurl}}/img/{{ first.hero }}') " class="hero"></div>
+  <div class="content">
+    <h2>{{ first.name }}</h2>
+    <p>        {{ first.blurb }}
+     </p>
+     <div class="wrap">
+        <div style="background-image: url('{{site.baseurl}}/img/{{ first.testimonial-image1 }}') " class="testimonial"></div>
+        <div style="background-image: url('{{site.baseurl}}/img/{{ first.testimonial-image2 }}') " class="testimonial hide1"></div>
+        <div style="background-image: url('{{site.baseurl}}/img/{{ first.testimonial-image3 }}') " class="testimonial hide2"></div>
+    </div>
+    <form class="form">
+        <h2>I'm Interested</h2>
+    </form>
+  </div>
+</article>{% endfor %}
+

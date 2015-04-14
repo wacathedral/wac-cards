@@ -1,0 +1,17 @@
+.post
+    .wrap
+        +flex-display
+        margin-top: 4%
+        
+        .testimonial
+            +flex-display
+            +flex-direction(row)
+            +flex(1)
+            height: $card-height/2
+            background:
+                size: cover
+                position: center
+                
+    @media screen and (max-width: $small)
+        .hide
+            display: none

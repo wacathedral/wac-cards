@@ -2,7 +2,7 @@
 header
     +flex-display
     +justify-content(space-between)
-
+    margin-top: 1em
     
     .container
         +flex-display
@@ -65,7 +65,7 @@ header
             
         .btn-close
             g
-                fill: #fff
+                fill: $accent2
 
 
 
