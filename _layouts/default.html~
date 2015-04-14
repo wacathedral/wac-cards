@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-
-  <body>
-  <div class="positioner">
     {% include overlay.html %}
+  <body>
+
     {% include header.html %}
 
     
-
-        {% include cards.html %}
-
-    </div>
+    {{ content }}
+        
     {% include footer.html %}
   </body>
 </html>

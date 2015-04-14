@@ -466,7 +466,7 @@ header {
   -webkit-justify-content: space-between;
   -ms-flex-pack: space-between;
   justify-content: space-between;
-  margin-top: 1em !important; }
+  padding-top: 1em !important; }
   header .container {
     display: -webkit-box;
     display: -webkit-flex;
