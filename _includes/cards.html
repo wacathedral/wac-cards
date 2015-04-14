@@ -1,6 +1,6 @@
 
 <section>
-    <div class="container">
+    <div class="container cards-container" >
     {% for post in site.categories.sermon limit:1 %}
         <a href="{{site.baseurl}}{{ post.url}}" id="card-1" style="background-image: url('{{site.baseurl}}/img/{{ post.image }}') "></a>
     {% endfor %}

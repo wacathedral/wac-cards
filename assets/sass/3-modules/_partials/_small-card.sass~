@@ -1,5 +1,5 @@
 %sm-card-sizing
-
+    +size(89vw $card-height/2)
     margin: $card-margin    
 
 
@@ -51,8 +51,7 @@ section
 
         
     .action-step
-        display: none
-//        +flex-display
+        +flex-display
         +flex-direction(column)
         +justify-content(space-around)
         +align-items(center)

@@ -2,4 +2,5 @@
 @import 'flexbox-support'
 @import 'neat/neat'
 @import 'fonts'
-@import 'jquery.fullPage'
+
+@import 'plugins/slick'
