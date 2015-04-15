@@ -22,46 +22,36 @@
 # 
 #       4. You have to place all of the contents of this file between the --- marks.  Anything outside of it won't be recognized.
 # 
-#       5. To delete a section, simply make a null value in the the variable added to the tag by adding empty qoutes "". 
-#                      (e.g. testimonial-image1: "" & testimonial1: "")
-# 
 #       DON'T EDIT THESE PARTS:
 layout: ministry
 category: ministries
 ########################
 
 # You can edit the parts below: #
-name: Youth Ministry
+name: This is a template
 
-hero: 181H.jpg
+hero: 147H.jpg
 
 blurb: 
-    Bacon ipsum dolor amet short ribs corned beef andouille, frankfurter chuck 
-    bresaola porchetta tri-tip turkey biltong. Pork loin landjaeger ham hock pork
-    belly turducken ham, jowl beef ribs porchetta ground round tongue shoulder 
-    ribeye swine. Ham turkey porchetta, swine rump landjaeger brisket short ribs 
-    venison meatball beef jerky tongue meatloaf. Pork belly shoulder capicola, 
-    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
-    Brisket landjaeger pancetta chuck leberkas jowl.
 
-testimonial-header: What WAC Youth Means To Me
     
-testimonial-image1: josh.png
+testimonial-header: This describes the headers
+
+testimonial-image1: spike-square.png
 testimonial1: 
-    Bacon ipsum dolor amet short ribs corned beef andouille, frankfurter chuck 
-    bresaola porchetta tri-tip turkey biltong. Pork loin landjaeger ham 
-    
-testimonial-image2: ed.jpg
-testimonial2:
     Pork belly shoulder capicola, 
-    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
-    Brisket landjaeger pancetta chuck leberkas jowl.
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
     
-testimonial-image3: kristen.jpg
-testimonial3:
+testimonial-image2: redsun-square.png
+testimonial2: 
     Pork belly shoulder capicola, 
-    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
-    Brisket landjaeger pancetta chuck leberkas jowl. 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+    
+testimonial-image3: lion-square.png
+testimonial3: 
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+  
 
 
 

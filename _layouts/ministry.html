@@ -10,13 +10,34 @@ layout: default
      </p>
              <h2>{{page.testimonial-header}}</h2>
      <div class="wrap">
-        <div style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image1 }}') " class="testimonial"><div class="testimonial-overlay"><span>"</span>{{page.testimonial1}}</div></div>
-        <div style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image2 }}') " class="testimonial hide1"><div class="testimonial-overlay"><span>"</span>{{page.testimonial2}}</div></div>
-        <div style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image3 }}') " class="testimonial hide2"><div class="testimonial-overlay"><span>"</span>{{page.testimonial3}}</div></div>
+        <div class="flex-wrap">
+             <p>{{page.testimonial1}}</p>
+            <div style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image3 }}') " class="testimonial"></div>
+        </div>
+        <div class="flex-wrap hide1">
+            <div style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image2 }}') " class="testimonial"></div>
+            <p>{{page.testimonial2}}</p>
+        </div>
     </div>
-    <form class="form">
-        <h2>I'm Interested</h2>
-    </form>
+    <div class="contact-form">
+        <div class="wrap">
+            <h2>I'm Interested</h2>
+            <form>
+                <small>Name</small>
+                <input type="text"></input>
+                <small>email</small>
+                <input type="text"></input>
+                <input type="submit" value="go"></input>
+            </form>
+        </div>
+        <div class="minsitry-lead-bio">
+            <img src="/img/josh.png"/>
+            <div class="wrap">
+                <h4>Name</h4>
+                <p>Pork belly shoulder capicola, landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. Brisket landjaeger pancetta chuck leberkas jowl.</p>
+            </div>
+        </div>
+    </div>
   </div>
 </article>{% endfor %}
 
