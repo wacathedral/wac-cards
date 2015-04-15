@@ -5,7 +5,7 @@ description: "buidling the world's greatest caring network"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
 port: 8000
 
 sass:

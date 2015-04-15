@@ -5,11 +5,11 @@ description: "buidling the world's greatest caring network"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title
 port: 8000
 
 sass:
    sass_dir: assets/sass
    style: :nested
    
-
+baseurl: /wac-cards

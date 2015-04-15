@@ -595,7 +595,11 @@ header {
   display: -moz-box;
   display: ms-flexbox;
   display: flex;
-  margin-top: 4%; }
+  margin-top: 4%;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around; }
   .post .wrap .testimonial {
     display: -webkit-box;
     display: -webkit-flex;
@@ -607,13 +611,36 @@ header {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    height: 18em;
+    height: 9em;
+    width: 9em;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    position: relative;
+    padding-top: 20%;
+    overflow: hidden;
+    border-radius: 50%; }
+    .post .wrap .testimonial .testimonial-overlay {
+      position: absolute;
+      top: 100%;
+      right: 0px;
+      left: 0px;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      -webkit-transition: all 0.15s ease-out 0s;
+      -moz-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s;
+      font-size: 0.5em;
+      line-height: 1.4;
+      color: #fff;
+      padding: 3.7em;
+      text-indent: -10px; }
+      .post .wrap .testimonial .testimonial-overlay span {
+        font-size: 1.4em; }
+    .post .wrap .testimonial:hover .testimonial-overlay {
+      position: absolute;
+      top: 0%;
+      right: 0px;
+      left: 0px; }
   @media screen and (max-width: 58em) {
     .post .wrap .hide1 {
       display: none; } }

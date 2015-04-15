@@ -2,15 +2,37 @@
     .wrap
         +flex-display
         margin-top: 4%
+        +justify-content(space-around)
         
         .testimonial
             +flex-display
             +flex-direction(row)
-            +flex(1)
-            height: $card-height/2
+            +size($card-height/4)
             background:
                 size: cover
                 position: center
+            position: relative
+            padding-top: 20%
+            overflow: hidden
+            border-radius: 50%
+                
+            .testimonial-overlay
+                +position(absolute, 100% 0px null 0px)
+                height: 100%
+                background: fade-out($accent1, 0.3)
+                +transition
+                font-size: 0.5em
+                line-height: 1.4
+                color: $accent2
+                padding: 3.7em
+                text-indent: -10px
+                
+                span
+                    font-size: 1.4em
+
+                
+            &:hover .testimonial-overlay
+                +position(absolute, 0% 0px null 0px)
 
         @media screen and (max-width: $medium)
             .hide1

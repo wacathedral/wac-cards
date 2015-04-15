@@ -1,0 +1,21 @@
+---
+#This is the info for all of the different ministries: 
+layout: ministry
+
+name: Youth Ministry
+hero: 181H.jpg
+blurb: 
+    Bacon ipsum dolor amet short ribs corned beef andouille, frankfurter chuck 
+    bresaola porchetta tri-tip turkey biltong. Pork loin landjaeger ham hock pork
+    belly turducken ham, jowl beef ribs porchetta ground round tongue shoulder 
+    ribeye swine. Ham turkey porchetta, swine rump landjaeger brisket short ribs 
+    venison meatball beef jerky tongue meatloaf. Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
+    Brisket landjaeger pancetta chuck leberkas jowl.
+testimonial-image1: spike-square.png
+testimonial-image2: redsun-square.png
+testimonial-image3: lion-square.png
+  
+---
+
+#content
