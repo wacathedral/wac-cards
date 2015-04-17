@@ -31,9 +31,9 @@ category: ministries
 ########################
 
 # You can edit the parts below: #
-name: Youth Ministry
+name: This is a template
 
-hero: 181H.jpg
+hero: 147H.jpg
 
 blurb: 
     Bacon ipsum dolor amet short ribs corned beef andouille, frankfurter chuck 
@@ -43,25 +43,30 @@ blurb:
     venison meatball beef jerky tongue meatloaf. Pork belly shoulder capicola, 
     landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
     Brisket landjaeger pancetta chuck leberkas jowl.
-
-testimonial-header: What WAC Youth Means To Me
     
-testimonial-image1: kristen.jpg
+testimonial-header: This describes the Testimonials
+
+testimonial-image1: spike-square.png
 testimonial1: 
-    I think Washington Cathedral is really great. I like it a lot and it makes me feel good. 
-    You should all go here and be the best!
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
     
-testimonial-image2: ed.jpg
-testimonial2:
-    I'm a real person with real feelings. This church helped me feel those feelings in 
-    a real way.  Pretty cool huh?
-
-leader-name: A Great Guy
-leader-pic: samurai-square.png
-leader-bio: 
-    This guy is a great guy. He'll contact you and ask you some questions. You should 
-    really consider reaching out to him because it will be great. 
-
+testimonial-image2: redsun-square.png
+testimonial2: 
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+    
+testimonial-image3: lion-square.png
+testimonial3: 
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+  
+leader-pic: josh.png
+leader-name: This Guy
+leader-bio:
+    Pork belly shoulder capicola, landjaeger spare ribs kevin salami 
+    ground round kielbasa doner strip steak. Brisket landjaeger pancetta
+     chuck leberkas jowl.
 
 
 # post information needs to fall between the dashed lines.    

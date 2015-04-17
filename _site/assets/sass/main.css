@@ -47,9 +47,6 @@ a {
     .positioner {
       padding: 0 3em; } }
 
-.form {
-  background-color: #eee; }
-
 @media screen and (min-width: 68em) {
   section .container {
     display: -webkit-box;
@@ -589,18 +586,52 @@ header {
   .overlay .ov-wrap .nav-item {
     font-size: 3em; }
 
-.post .wrap {
+section {
+  margin-bottom: 6em; }
+
+article .testimonials .wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: ms-flexbox;
   display: flex;
-  margin-top: 4%;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around; }
-  .post .wrap .testimonial {
+  margin: 2em;
+  opacity: 0;
+  transform: translate(-20px, 10px);
+  transition: all 1.2s ease-in-out; }
+  article .testimonials .wrap.is-showing {
+    opacity: 1;
+    transform: translateX(0px); }
+  article .testimonials .wrap p {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2; }
+  article .testimonials .wrap .testimonial {
+    height: 9em;
+    width: 9em;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 2em; }
+article .contact-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: ms-flexbox;
+  display: flex;
+  margin: 0 3em;
+  background-color: #ECECDB;
+  padding: 0 3em;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate(20px);
+  transition: all 1.2s ease-in-out; }
+  article .contact-form.slide-in {
+    opacity: 1;
+    transform: translateX(0px); }
+  article .contact-form .wrap {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -608,42 +639,72 @@ header {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    height: 9em;
-    width: 9em;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding-top: 20%;
-    overflow: hidden;
-    border-radius: 50%; }
-    .post .wrap .testimonial .testimonial-overlay {
-      position: absolute;
-      top: 100%;
-      right: 0px;
-      left: 0px;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.7);
-      -webkit-transition: all 0.15s ease-out 0s;
-      -moz-transition: all 0.15s ease-out 0s;
-      transition: all 0.15s ease-out 0s;
-      font-size: 0.5em;
-      line-height: 1.4;
-      color: #fff;
-      padding: 3.7em;
-      text-indent: -10px; }
-      .post .wrap .testimonial .testimonial-overlay span {
-        font-size: 1.4em; }
-    .post .wrap .testimonial:hover .testimonial-overlay {
-      position: absolute;
-      top: 0%;
-      right: 0px;
-      left: 0px; }
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+    article .contact-form .wrap h3, article .contact-form .wrap h4 {
+      margin: 0; }
+    article .contact-form .wrap h2 {
+      text-align: left;
+      line-height: 1.2em; }
+    article .contact-form .wrap form {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1; }
+      article .contact-form .wrap form input {
+        height: 2.5em; }
+      article .contact-form .wrap form input:nth-of-type(3) {
+        width: 40px;
+        margin: 0.9em auto; }
+  article .contact-form .minsitry-lead-bio {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start; }
+    article .contact-form .minsitry-lead-bio .leader-pic {
+      -webkit-box-flex: 2;
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      margin: 0.9em;
+      margin-left: 4em; }
+    article .contact-form .minsitry-lead-bio .wrap {
+      -webkit-box-flex: 3;
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      font-size: 0.7em;
+      line-height: 1.4em; }
   @media screen and (max-width: 58em) {
-    .post .wrap .hide1 {
+    article .contact-form .hide1 {
       display: none; } }
   @media screen and (max-width: 30em) {
-    .post .wrap div[class*="hide"] {
+    article .contact-form div[class*="hide"] {
       display: none; } }

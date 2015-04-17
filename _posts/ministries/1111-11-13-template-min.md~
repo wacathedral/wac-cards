@@ -1,0 +1,49 @@
+---
+########################
+# 
+#       DON'T EDIT THESE PARTS:
+layout: ministry
+category: ministries
+########################
+
+# You can edit the parts below: #
+name: This is a template
+
+hero: 158H.jpg
+
+blurb: 
+    Bacon ipsum dolor amet short ribs corned beef andouille, frankfurter chuck 
+    bresaola porchetta tri-tip turkey biltong. Pork loin landjaeger ham hock pork
+    belly turducken ham, jowl beef ribs porchetta ground round tongue shoulder 
+    ribeye swine. Ham turkey porchetta, swine rump landjaeger brisket short ribs 
+    venison meatball beef jerky tongue meatloaf. Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
+    Brisket landjaeger pancetta chuck leberkas jowl.
+    
+testimonial-header: This describes the Testimonials
+
+testimonial-image1: spike-square.png
+testimonial1: 
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+    
+testimonial-image2: redsun-square.png
+testimonial2: 
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+    
+testimonial-image3: lion-square.png
+testimonial3: 
+    Pork belly shoulder capicola, 
+    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak.
+  
+leader-pic: samurai-square.png
+leader-name: This Guy
+leader-bio:
+    Pork belly shoulder capicola, landjaeger spare ribs kevin salami 
+    ground round kielbasa doner strip steak. Brisket landjaeger pancetta
+     chuck leberkas jowl.
+
+
+# post information needs to fall between the dashed lines.    
+---
