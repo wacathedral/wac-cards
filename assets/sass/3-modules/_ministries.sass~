@@ -1,11 +1,24 @@
-.post
-    .wrap
-        .flex-wrap
+section
+    margin-bottom: 6em
+
+
+article
+    .testimonials
+        .wrap
             +flex-display
             margin: 2em
+            opacity: 0
+            transform: translate(-20px, 10px)
+            transition: all 1.5s ease-in-out
+
+            &.is-showing
+                opacity: 1
+                transform: translateX(0px)
             
             p
                 +flex(2)
+
+
 
             .testimonial
                 +size($card-height/4)
@@ -15,13 +28,34 @@
                 border-radius: 50%
                 margin: 0 2em
 
+
     .contact-form
         +flex-display
+        margin: 0 3em
+        background-color: #ECECDB
+        padding: 0 3em
+        border: 2px solid #ccc
+        border-radius: 15px
+
+
+        opacity: 0
+        transform: translate(20px)
+        transition: all 1.5s ease-in-out
+
+        &.slide-in
+            opacity: 1
+            transform: translateX(0px)
         
         .wrap
             +flex-display
             +flex-direction(column)
             +flex(1)
+
+            h3, h4
+                margin: 0
+            h2
+                text-align: left
+                line-height: 1.2em
         
         
             form
@@ -30,7 +64,7 @@
                 +flex(1)
                 
                 input
-                    //add styling
+                    height: 2.5em
                 
                 input:nth-of-type(3)
                     width: 40px
@@ -39,21 +73,22 @@
         .minsitry-lead-bio
             +flex-display
             +flex(2)
-            +align-items(center)
+            +align-items(start)
+
+            .leader-pic
+                +flex(2)
+                height: 200px
+                background:
+                    size: cover
+                    position: center
+                margin: $card-margin
+                margin-left: 4em
             
             .wrap
                 +flex(3)
                 font-size: 0.7em
+                line-height: 1.4em
             
-            
-            img
-                +flex(1)
-                height: 1
-                max-width: 100%
-                margin: 0 $card-margin
-
-
-
 
         @media screen and (max-width: $medium)
             .hide1

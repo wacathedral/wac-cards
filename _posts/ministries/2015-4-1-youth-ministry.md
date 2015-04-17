@@ -46,22 +46,21 @@ blurb:
 
 testimonial-header: What WAC Youth Means To Me
     
-testimonial-image1: josh.png
+testimonial-image1: kristen.jpg
 testimonial1: 
-    Bacon ipsum dolor amet short ribs corned beef andouille, frankfurter chuck 
-    bresaola porchetta tri-tip turkey biltong. Pork loin landjaeger ham 
+    I think Washington Cathedral is really great. I like it a lot and it makes me feel good. 
+    You should all go here and be the best!
     
 testimonial-image2: ed.jpg
 testimonial2:
-    Pork belly shoulder capicola, 
-    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
-    Brisket landjaeger pancetta chuck leberkas jowl.
-    
-testimonial-image3: kristen.jpg
-testimonial3:
-    Pork belly shoulder capicola, 
-    landjaeger spare ribs kevin salami ground round kielbasa doner strip steak. 
-    Brisket landjaeger pancetta chuck leberkas jowl. 
+    I'm a real person with real feelings. This church helped me feel those feelings in 
+    a real way.  Pretty cool huh?
+
+leader-name: A Great Guy
+leader-pic: samurai-square.png
+leader-bio: 
+    This guy is a great guy. He'll contact you and ask you some questions. You should 
+    really consider reaching out to him because it will be great. 
 
 
 
