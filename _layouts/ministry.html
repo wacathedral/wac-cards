@@ -21,24 +21,7 @@ layout: default
         </div>
     </section>
     <section class="contact-form">
-        <div class="wrap">
-            <h2>I'm Interested</h2>
-            <form>
-                <small>Name</small>
-                <input type="text"></input>
-                <small>email</small>
-                <input type="text"></input>
-                <input type="submit" value="go"></input>
-            </form>
-        </div>
-        <div class="minsitry-lead-bio">
-            <div class="leader-pic" style="background-image: url('/img/{{ page.leader-pic }}')"></div>
-            <div class="wrap">
-                <h2>Who's going to contact you:</h2>
-                <h4>{{page.leader-name}}</h4>
-                <p>{{page.leader-bio }}</p>
-            </div>
-        </div>
+            {% include form.html %}
     </section>
   </div>
 </article>{% endfor %}

@@ -1,0 +1,18 @@
+
+<h2>I'm Interested</h2>
+<form class="form">
+  <div id="inputs">
+    <input name="name" type="text" placeholder="Name" id="name" class="input"/>
+    <input name="email" type="text" placeholder="Email" id="email" class="input"/>
+    <input name="comments" type="text-area" placeholder="Comments" id="message" class="input"/>
+    <input name="submit" type="submit" value="Let's Go!" id="submit" class="input"/>
+  </div>
+  <div id="bio-wrap">
+    <div id="bio-pic" style="background-image: url('/img/{{ page.leader-pic }}')"></div>
+    <div id="bio">
+      <h2>Here's who's going to contact you.</h2>
+      <h3>{{page.leader-name}}</h3>
+      <p>{{page.leader-bio}}</p>
+    </div>
+  </div>
+</form>

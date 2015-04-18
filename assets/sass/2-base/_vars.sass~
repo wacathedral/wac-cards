@@ -3,6 +3,7 @@ $card-margin: $card-height*0.025
 
 //Media Queries: 
 $small: 30em
+$mid-2: 48em
 $medium: 58em
 $large: 68em
 //for xlarge: @media (min-width: $large)
@@ -18,7 +19,7 @@ $primary-font-color: black
 $logo-primary: #8b8b8b
 $logo-secondary: #d1d1d1
 $accent1: #000
-$accent2: red
+$accent2: #fff
 
 
 //Z-INDEX

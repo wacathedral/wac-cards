@@ -57,10 +57,10 @@ testimonial2:
     a real way.  Pretty cool huh?
 
 leader-name: A Great Guy
-leader-pic: samurai-square.png
+leader-pic: josh.png
 leader-bio: 
-    This guy is a great guy. He'll contact you and ask you some questions. You should 
-    really consider reaching out to him because it will be great. 
+    Ham turkey porchetta, swine rump landjaeger brisket short ribs 
+    venison meatball beef jerky tongue meatloaf. 
 
 
 

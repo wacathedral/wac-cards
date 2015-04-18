@@ -13,32 +13,15 @@ layout: default
      <section class="testimonials">
         <div class="wrap">
              <p>{{page.testimonial1}}</p>
-            <div class="testimonial" style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image3 }}') "></div>
+            <div class="testimonial" style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image1 }}') "></div>
         </div>
         <div class="wrap hide1">
             <div class="testimonial" style="background-image: url('{{site.baseurl}}/img/{{ page.testimonial-image2 }}') "></div>
             <p>{{page.testimonial2}}</p>
         </div>
     </section>
-    <section class="contact-form">
-        <div class="wrap">
-            <h2>I'm Interested</h2>
-            <form>
-                <small>Name</small>
-                <input type="text"></input>
-                <small>email</small>
-                <input type="text"></input>
-                <input type="submit" value="go"></input>
-            </form>
-        </div>
-        <div class="minsitry-lead-bio">
-            <div class="leader-pic" style="background-image: url('/img/{{ page.leader-pic }}')"></div>
-            <div class="wrap">
-                <h2>Who's going to contact you:</h2>
-                <h4>{{page.leader-name}}</h4>
-                <p>{{page.leader-bio }}</p>
-            </div>
-        </div>
+    <section >
+            {% include form.html %}
     </section>
   </div>
 </article>{% endfor %}
