@@ -1,19 +1,31 @@
+@media screen and (max-width: $medium)
+    .testimonials
+        .wrap
+            +flex-direction(column)
+            .testimonial
+                order: 0
+            p
+                order: 1
+            +align-items(center)
+        .hide1
+            display: none !important
+.main
+    p::first-letter
+        font-size: 1.4em
+
 section
     margin-bottom: 6em
 
 
 article
     .testimonials
+        position: relative
+        background:
+            attachment: fixed
         .wrap
             +flex-display
             margin: 2em
-            opacity: 0
-            transform: translate(-20px, 10px)
-            transition: all 1.5s ease-in-out
-
-            &.is-showing
-                opacity: 1
-                transform: translateX(0px)
+            position: absolute
             
             p
                 +flex(2)
@@ -30,17 +42,10 @@ article
 
 
     .contact-form
-        +flex-display
-        margin: 0 3em
-        background-color: #ECECDB
-        padding: 0 3em
-        border: 2px solid #ccc
-        border-radius: 15px
-
 
         opacity: 0
         transform: translate(20px)
-        transition: all 1.5s ease-in-out
+        transition: all 1.2s ease-in-out
 
         &.slide-in
             opacity: 1
@@ -89,12 +94,3 @@ article
                 font-size: 0.7em
                 line-height: 1.4em
             
-
-        @media screen and (max-width: $medium)
-            .hide1
-                display: none
-
-                
-        @media screen and (max-width: $small)
-            div[class*="hide"]
-                display: none

@@ -1,0 +1,34 @@
+h2 I'm Interested
+form.form
+    #inputs
+        input.input(
+            name='name'
+            type='text'
+            placeholder="Name"
+            id='name'
+        )
+        input.input(
+            name='email'
+            type='text'
+            placeholder="Email"
+            id='email'
+        )
+        input.input(
+        name='comments'
+        type="text-area"
+        placeholder="Comments"
+        id="message"
+        )
+        input.input(
+            name='submit'
+            type='submit'
+            value="Let's Go!"
+            id='submit'
+        )
+    
+    #bio-wrap
+        #bio-pic(style="background-image: url('/img/{{ page.leader-pic }}')")
+        #bio
+            h2 Here's who's going to contact you.
+            h3 {{page.leader-name}}
+            p {{page.leader-bio}}

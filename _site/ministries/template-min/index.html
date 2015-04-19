@@ -142,7 +142,7 @@
 <article class="post">
   <div class="hero" style="background-image: url('/img/158H.jpg') " ></div>
   <div class="content">
-    <section>
+    <section class="main">
         <h2>This is a template</h2>
         <p>        </p>
     </section>
@@ -158,24 +158,24 @@
         </div>
     </section>
     <section class="contact-form">
-        <div class="wrap">
-            <h2>I'm Interested</h2>
-            <form>
-                <small>Name</small>
-                <input type="text"></input>
-                <small>email</small>
-                <input type="text"></input>
-                <input type="submit" value="go"></input>
-            </form>
-        </div>
-        <div class="minsitry-lead-bio">
-            <div class="leader-pic" style="background-image: url('/img/')"></div>
-            <div class="wrap">
-                <h2>Who's going to contact you:</h2>
-                <h4></h4>
-                <p></p>
-            </div>
-        </div>
+            
+<h2>I'm Interested</h2>
+<form class="form">
+  <div id="inputs">
+    <input name="name" type="text" placeholder="Name" id="name" class="input"/>
+    <input name="email" type="text" placeholder="Email" id="email" class="input"/>
+    <input name="comments" type="text-area" placeholder="Comments" id="message" class="input"/>
+    <input name="submit" type="submit" value="Let's Go!" id="submit" class="input"/>
+  </div>
+  <div id="bio-wrap">
+    <div id="bio-pic" style="background-image: url('/img/')"></div>
+    <div id="bio">
+      <h2>Here's who's going to contact you.</h2>
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+</form>
     </section>
   </div>
 </article>

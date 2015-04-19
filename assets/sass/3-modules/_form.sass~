@@ -1,0 +1,95 @@
+$font-size: 0.8em
+$border-color: #eee
+form
+    +flex-display
+    +align-items(start)
+    margin: 0 auto
+    padding: $card-margin
+    font-size: $font-size
+    border: 2px solid $border-color
+
+input
+    border: 2px solid $border-color
+    margin: 3px
+    padding: 4px
+    width: 100%
+    //background: fade-out($accent1, 0.7)
+    font-family: $helvetica
+    font-weight: 400
+    font-size: $font-size
+    
+    &:focus
+        ::-webkit-input-placeholder
+            color: $accent1
+    
+    
+    
+::-webkit-input-placeholder
+    color: #888
+    text-transform: uppercase
+    padding: 0 6px
+
+    
+::-moz-placeholder
+    color: #888
+    text-transform: uppercase
+    padding: 0 6px
+
+#name, #email
+    border: 0
+    border-bottom: 2px solid $border-color
+
+    &:focus
+        outline: none
+        border-bottom: 2px solid $accent1
+        
+
+
+#submit
+    width: inherit 
+    padding: 4px 12px
+           
+#inputs
+    +flex-display
+    +flex-direction(column)
+    +flex(2)
+    +justify-content(space-around)
+    +align-items(center)
+    margin: $card-margin
+
+    
+#bio-wrap
+    +flex-display
+    +flex(4)
+    
+#bio-pic
+    +flex(1)
+    background:
+        size: contain
+        position: top
+        repeat: no-repeat
+    min-height: 40vh
+    margin: $card-margin
+
+#bio
+    +flex-direction(column)
+    +flex(2)
+        
+#message
+    min-height: 110px
+    +justify-content(start)
+
+@media screen and (max-width: $medium)
+    form
+        font-size: .8em
+    #bio-pic
+        +flex(2)
+    #bio-wrap
+        +flex-wrap(wrap)
+        +flex-direction(row)
+       
+@media screen and (max-width: $mid-2)
+    form
+        +flex-direction(column)
+
+        
