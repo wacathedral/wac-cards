@@ -586,6 +586,26 @@ header {
   .overlay .ov-wrap .nav-item {
     font-size: 3em; }
 
+@media screen and (max-width: 58em) {
+  .testimonials .wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .testimonials .wrap .testimonial {
+      order: 0; }
+    .testimonials .wrap p {
+      order: 1; }
+  .testimonials .hide1 {
+    display: none !important; } }
+.main p::first-letter {
+  font-size: 1.4em; }
+
 section {
   margin-bottom: 6em; }
 
@@ -692,12 +712,6 @@ article .contact-form {
       flex: 3;
       font-size: 0.7em;
       line-height: 1.4em; }
-  @media screen and (max-width: 58em) {
-    article .contact-form .hide1 {
-      display: none; } }
-  @media screen and (max-width: 30em) {
-    article .contact-form div[class*="hide"] {
-      display: none; } }
 
 form {
   display: -webkit-box;
@@ -722,6 +736,8 @@ input {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-size: 0.8em; }
+  input:focus::-webkit-input-placeholder {
+    color: #000; }
 
 ::-webkit-input-placeholder {
   color: #888;
@@ -732,6 +748,13 @@ input {
   color: #888;
   text-transform: uppercase;
   padding: 0 6px; }
+
+#name, #email {
+  border: 0;
+  border-bottom: 2px solid #eee; }
+  #name:focus, #email:focus {
+    outline: none;
+    border-bottom: 2px solid #000; }
 
 #submit {
   width: inherit;

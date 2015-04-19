@@ -18,16 +18,32 @@ input
     font-weight: 400
     font-size: $font-size
     
+    &:focus
+        ::-webkit-input-placeholder
+            color: $accent1
+    
+    
     
 ::-webkit-input-placeholder
     color: #888
     text-transform: uppercase
     padding: 0 6px
+
     
 ::-moz-placeholder
     color: #888
     text-transform: uppercase
     padding: 0 6px
+
+#name, #email
+    border: 0
+    border-bottom: 2px solid $border-color
+
+    &:focus
+        outline: none
+        border-bottom: 2px solid $accent1
+        
+
 
 #submit
     width: inherit 

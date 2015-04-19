@@ -20,7 +20,7 @@ layout: default
             <p>{{page.testimonial2}}</p>
         </div>
     </section>
-    <section >
+    <section class="contact-form">
             {% include form.html %}
     </section>
   </div>
