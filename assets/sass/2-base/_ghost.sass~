@@ -1,0 +1,20 @@
+$dark: fade-out(#000, 0.2)
+$light: fade-out(#000, 0.4)
+        
+
+        
+button
+    padding: 1.4em 2em
+    //border-radius: 30px
+    background: transparent
+    font-family: $primary-font
+    border: 4px solid $dark
+    font-size: 1.4em
+    line-height: 0
+    //background-color: fade-out(#000, 0.95)
+    color: $dark
+    
+    &:hover
+        color: $light
+        border: 4px solid $light
+    

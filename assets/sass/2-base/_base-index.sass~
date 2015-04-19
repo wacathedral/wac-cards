@@ -1,5 +1,3 @@
 @import 'vars'
 @import 'placeholders'
 @import 'base'
-@import 'ghost'
-
