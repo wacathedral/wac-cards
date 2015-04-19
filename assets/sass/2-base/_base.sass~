@@ -1,7 +1,16 @@
 body
     font-family: $open-sans
     margin: 0
+    background:
+        image: url('/img/wac-globe.svg')
+        repeat: no-repeat
+        position: top right
+        margin: -20%
 
+        
+
+section
+    background: transparent
 
 h1, h2, h3, h4
     font-family: $open-sans
@@ -19,5 +28,3 @@ a
         padding: 0 3em
 
 
-.form
-    background-color: #eee

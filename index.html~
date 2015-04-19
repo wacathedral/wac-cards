@@ -6,11 +6,14 @@
     {% include head.html %}
 
   <body>
+      {% include underlay.html %}
   <div class="positioner">
     {% include overlay.html %}
     {% include header.html %}
 
+    
 
+        {% include cards.html %}
 
     </div>
     {% include footer.html %}

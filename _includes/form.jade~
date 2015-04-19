@@ -29,6 +29,6 @@ form.form
     #bio-wrap
         #bio-pic(style="background-image: url('/img/{{ page.leader-pic }}')")
         #bio
-            h2 Here's who's going to contact you.
-            h3 {{page.leader-name}}
+            h3 Here's who's going to contact you.
+            h4 {{page.leader-name}}
             p {{page.leader-bio}}
