@@ -3,7 +3,7 @@ $card-margin: $card-height*0.025
 
 //Media Queries: 
 $small: 30em
-$mid-2: 48em
+$mid-2: 50em
 $medium: 58em
 $large: 68em
 //for xlarge: @media (min-width: $large)
@@ -12,14 +12,17 @@ $large: 68em
 //Fonts
 $open-sans: Open Sans
 $montserrat: Montserrat
+$primary-font: $open-sans
 $primary-font-color: black
 
 
 // COLORS
 $logo-primary: #8b8b8b
 $logo-secondary: #d1d1d1
-$accent1: #000
-$accent2: #fff
+$accent1: #012340
+$accent2: #f2e3b6
+$pastel-green: #38a67e
+$pastel-orange: #f26b1d
 
 
 //Z-INDEX

@@ -2,7 +2,7 @@
 header
     +flex-display
     +justify-content(space-between)
-    margin-top: 1em !important
+    padding-top: 1em !important
     
     .container
         +flex-display
@@ -26,11 +26,13 @@ header
             -webkit-order: 2
             a
                 margin: 0 $card-margin
-
                 font:
                     weight: 700
                 text-transform: uppercase
                 color: $primary-font-color
+                border-bottom: 2px solid #fff
+                &:hover
+                    border-bottom: 2px solid #f26b1d
         
     .menu-icon
         display: none

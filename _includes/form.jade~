@@ -1,7 +1,6 @@
 h2 I'm Interested
 form.form
     #inputs
-        h2 title
         input.input(
             name='name'
             type='text'
